@@ -18,7 +18,7 @@ def random_words():
     list_words = []
     words.delete('1.0', END)
 
-    with open("./random-words.txt", encoding="utf8") as file:
+    with open("./random_words.txt", encoding="utf8") as file:
         for line in file.readlines():
             w = line.replace('\n', '')
             list_words.append(w)
