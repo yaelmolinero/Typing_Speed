@@ -190,4 +190,5 @@ typing.bind('<Key>', writing)
 typing.bind('<BackSpace>', deleting)
 
 select_word()
+words.see('1.0')
 window.mainloop()
